@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run With The Flow 2025</title>
+  <meta http-equiv="refresh" content="2;url=https://script.google.com/macros/s/AKfycbxSZyPL5OxRpHMIo-gEN_X7aiYLoRW6No2xV5Unusc-IQ4lc-dO5PT5KprAeHo9TOg6/exec">
+
+  <script>
+    // ตรวจสอบว่าอยู่ใน Facebook / Instagram In-App Browser หรือไม่
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    const inAppBrowser = /FBAN|FBAV|Instagram/.test(ua);
+
+    // ถ้าอยู่ใน In-App browser ของ iOS → พยายามเปิดใน Safari แทน
+    if (inAppBrowser && /iPhone|iPad|iPod/.test(ua)) {
+      window.location.href = "https://script.google.com/macros/s/AKfycbxSZyPL5OxRpHMIo-gEN_X7aiYLoRW6No2xV5Unusc-IQ4lc-dO5PT5KprAeHo9TOg6/exec";
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      text-align: center;
+      padding: 80px 20px;
+      background: #fafafa;
+      color: #333;
+    }
+    .loader {
+      border: 5px solid #eee;
+      border-top: 5px solid #4CAF50;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      margin: 20px auto;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <h2>กำลังเปลี่ยนเส้นทาง...</h2>
+  <div class="loader"></div>
+  <p>หากไม่เปลี่ยนหน้าอัตโนมัติใน 5 วินาที<br>
+     กรุณา <a href="https://script.google.com/macros/s/AKfycbxSZyPL5OxRpHMIo-gEN_X7aiYLoRW6No2xV5Unusc-IQ4lc-dO5PT5KprAeHo9TOg6/exec" target="_blank">คลิกที่นี่เพื่อเปิดใน Safari</a>
+  </p>
+</body>
+</html>
